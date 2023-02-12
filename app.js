@@ -133,6 +133,7 @@ const weekDays = [
                 userName.textContent = `${inps.value}😍`;
 inps.value = "";
             })
+let inter = setInterval(inps,5000);
             
             btn2.addEventListener('click', (e) => {
                 e.preventDefault();
