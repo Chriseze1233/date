@@ -124,7 +124,7 @@ const weekDays = [
             formBtn.addEventListener('click', (e) => {
                 e.preventDefault();
                 if(inps.value == "") {
-                    warn.textContent = "Please Input Name";
+                    warn.innerHTML = "Please Input Name";
 
 setTimeout(() => warn.remove(), 2000);
                 }
