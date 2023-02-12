@@ -125,6 +125,7 @@ const weekDays = [
                 e.preventDefault();
                 if(inps.value == "") {
                     warn.innerHTML = "Please Input Name";
+setTimeout(() => warn.innerHTML = "", 2000);
                 }
                 else {
                     formCont.classList.add('slideup');
@@ -132,7 +133,7 @@ const weekDays = [
                 }
                 userName.textContent = `${inps.value}😍`;
 inps.value = "";
-setTimeout(() => warn.remove(), 2000);
+
             })
 
             
