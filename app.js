@@ -125,6 +125,8 @@ const weekDays = [
                 e.preventDefault();
                 if(inps.value == "") {
                     warn.textContent = "Please Input Name";
+
+setTimeout(() => warn.remove(), 2000);
                 }
                 else {
                     formCont.classList.add('slideup');
@@ -133,7 +135,7 @@ const weekDays = [
                 userName.textContent = `${inps.value}😍`;
 inps.value = "";
             })
-let inter = setTimeout(formBtn(),5000);
+
             
             btn2.addEventListener('click', (e) => {
                 e.preventDefault();
