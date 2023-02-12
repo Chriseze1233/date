@@ -129,7 +129,7 @@ const weekDays = [
                 else {
                     formCont.classList.add('slideup');
                     connt.classList.add('pop');
-inps.value = "";
+inps = "";
                 }
                 userName.textContent = `${inps.value}😍`;
             })
